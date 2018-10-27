@@ -1,6 +1,7 @@
 {
   "rulesDirectory": ["tslint-plugin-prettier"],
   "extends": ["tslint-react", "tslint-config-prettier"],
+  "packageManager": "yarn",
   "rules": {
     "prettier": [
       true, {

@@ -1,11 +1,12 @@
 {
-  "name": "ParcelReactTs",
+  "name": "parcel-react-ts",
   "version": "1.0.0",
   "description": "Parvel + TypeScript + React's Sample",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "parcel ./src/index.html"
+    "start": "parcel ./src/index.html",
+    "lint": "tslint 'src/**/*.ts{,x}'"
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
